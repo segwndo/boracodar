@@ -2,39 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
 }
 
 body {
+   font-size: 1.6rem;
   background-color: #130f1e;
-
   display: grid;
   place-content: center;
   height: 100vh;
-  gap: 16px;
+  gap: 1.6rem;
 }
 
 #app {
-  max-width: 360px;
-  padding-inline: 40px;
+  max-width: 36.0rem;
+  padding-inline: 4.0rem;
 }
 
 h1 {
   font-family: "Inter";
   color: white;
-  font-size: 32px;
+  font-size: 3.2rem;
 }
 
 p {
-  margin-top: 8px;
+  margin-top: .8rem;
   color: white;
   font-family: "Roboto";
   opacity: 0.67;
 }
 
 .buttons {
-  margin-top: 100px;
+  margin-top: 10.0rem;
   display: grid;
-  gap: 32px;
+  gap: 3.2rem;
 }
 
 .primary {
@@ -57,17 +63,17 @@ button {
   font-family: "Inter";
   border: 0;
   color: white;
-  padding: 12px 24px;
+  padding: 1.2rem 2.4rem;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  border-radius: 24px;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  border-radius: 2.4rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: .8rem;
 }
 
 button:hover {
@@ -75,7 +81,7 @@ button:hover {
 }
 
 button:focus {
-  outline: 2px solid #d9cdf7;
+  outline: .2rem solid #d9cdf7;
 }
 
 button:disabled {
@@ -89,7 +95,7 @@ button:disabled {
 }
 
 .loading i {
-  font-size: 16px;
+  font-size: 1.6rem;
   animation: spin 700ms infinite linear;
 }
 
@@ -98,7 +104,7 @@ button:disabled {
 }
 
 .movable i {
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 @keyframes spin {
