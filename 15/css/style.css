@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-gray-50: #f8fafc;
+  --color-gray-100: #f1f5f9;
+  --color-gray-200: #e2e8f0;
+  --color-gray-300: #cbd5e1;
+  --color-gray-400: #94a3b8;
+  --color-gray-500: #64748b;
+  --color-gray-600: #475569;
+  --color-gray-700: #334155;
+  --color-gray-800: #1e293b;
+  --color-gray-900: #0f172a;
+  --color-green-100: #04d361;
+  --color-green-200: #1b873f;
+  --color-purple-100: #996dff;
+  --color-purple-200: #7c3aed;
+  --color-white: #ffffff;
+  --color-orange: #fba94c;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+html,
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: var(--color-gray-50);
+}
+
+.pricing-table {
+  display: grid;
+  gap: 2.4rem;
+  padding: 2.4rem;
+}
+
+section {
+  width: 32rem;
+  margin: auto;
+}
+
+section .inner {
+  padding: 2.4rem;
+  background-color: var(--color-white);
+  border: 0.1rem solid var(--color-gray-200);
+  border-radius: 1rem;
+}
+
+.inner p {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-purple-200);
+}
+
+.title-price {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.7rem;
+  color: var(--color-gray-800);
+}
+
+.price {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--color-gray-800);
+}
+
+.price strong {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+button {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
+  border: 0.1rem solid var(--color-gray-800);
+  border-radius: 0.4rem;
+  margin-top: 1.6rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--color-gray-800);
+  cursor: pointer;
+}
+
+button.primary:hover {
+  background-color: var(--color-gray-800);
+  color: var(--color-white);
+}
+
+ul {
+  border-top: 0.1rem solid var(--color-gray-200);
+  padding-top: 1.6rem;
+  margin-top: 1.6rem;
+
+  list-style: none;
+
+  display: grid;
+  gap: 1.6rem;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+li span {
+  flex: 1;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.06em;
+  color: var(--color-gray-600);
+}
+
+li i.ph-check {
+  font-size: 2rem;
+  color: var(--color-green-200);
+}
+
+li i.ph-info {
+  font-size: 1.6rem;
+  color: var(--color-gray-900);
+}
+
+.enterprise .title {
+  font-size: 3.2rem;
+  line-height: 4.9rem;
+}
+
+.enterprise button {
+  margin-top: 3.2rem;
+}
+
+.enterprise ul {
+  padding-top: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+section.best {
+  margin-top: 1.6rem;
+  position: relative;
+}
+
+section.best::before {
+  content: "MAIS VANTAJOSO";
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-gray-900);
+  display: inline-block;
+  background-color: var(--color-orange);
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.6rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -1.7rem;
+}
+
+.ultimate .inner {
+  padding-top: 4rem;
+  background-color: var(--color-gray-900);
+}
+
+.ultimate .title,
+.ultimate .price {
+  color: var(--color-gray-50);
+}
+
+.inner p {
+  color: var(--color-purple-100);
+}
+
+button.secondary {
+  background-color: var(--color-purple-100);
+  color: var(--color-white);
+}
+
+button.secondary:hover {
+  background-color: var(--color-purple-200);
+}
+
+.ultimate ul {
+  border-color: var(--color-gray-700);
+}
+
+.ultimate li span {
+  color: var(--color-gray-300);
+}
+
+.ultimate li .ph-info {
+  color: var(--color-gray-500);
+}
+
+/*transition animation*/
+section .inner:hover {
+  border-color: var(--color-purple-100);
+}
+
+section .inner {
+  transition: border 300ms;
+}
+
+section:hover {
+  transform: scale(1.05);
+}
+
+section {
+  transition: transform 300ms;
+  animation: appear 400ms backwards var(--delay);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+}
