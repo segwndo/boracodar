@@ -116,6 +116,9 @@ a {
 }
 
 @media (max-width: 500px) {
+    main{
+        padding: 5rem;
+    }
     .cards {
         grid-template-columns: 1fr;
     }
