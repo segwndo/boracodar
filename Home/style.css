@@ -108,7 +108,10 @@ a {
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
+    .cards {
+        margin-top: 12rem;
+    }
     main {
         padding: 7rem;
     }
@@ -117,7 +120,10 @@ a {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
+    .cards {
+        margin-top: 14rem;
+    }
     main {
         padding: 5rem;
     }
