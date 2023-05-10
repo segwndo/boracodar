@@ -142,5 +142,11 @@
             <td>03/05/23</td>
             <td align="center" ><a href="16"><img width="300px" src="17/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>17</td>
+            <td><a href="18">Um Card de Personagem</a></td>
+            <td>10/05/23</td>
+            <td align="center" ><a href="16"><img width="300px" src="17/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
