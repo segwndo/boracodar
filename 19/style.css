@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 68.9rem;
+    width: 79.5rem;
+    border-radius: 4rem;
+    padding: 2.4rem 5.6rem;
+    background-color: white;
+    position: relative;
+    border-radius: 5rem;
+    background: #ffffff;
+    box-shadow: 2rem 2rem 6rem #d9d9d9, -2rem -2rem 6rem #ffffff;
+}
+
+header::before {
+    content: '';
+    height: 1.7rem;
+    width: 16.8rem;
+    left: 31.35rem;
+    top: 2.4rem;
+    border-radius: 99.9rem;
+    display: flex;
+    right: 100%;
+    background: #e5d8ea;
+    position: absolute;
+}
+
+header h1 {
+    margin-top: 11.6rem;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #372d3b;
+}
+
+header h1 span {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 4.8rem;
+    color: #864293;
+}
+
+header strong {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    color: #372d3b;
+}
+
+main {
+    margin-top: 9.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.men {
+    z-index: 1;
+}
+
+.men-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.men-info span {
+    padding: 0.8rem 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    width: 10rem;
+    height: 31.3.7rem;
+    left: 1.9rem;
+    top: 11rem;
+    background: #372d3b;
+    border-radius: 15rem;
+    z-index: 2;
+    color: #fbf8fc;
+}
+
+.men-info strong {
+    margin-top: 0.7rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+.car {
+    position: absolute;
+    left: 9rem;
+}
+
+.info h1 {
+    font-weight: 700;
+    font-size: 4.1rem;
+    line-height: 5rem;
+    color: #372d3b;
+}
+
+.info span {
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: #372d3b;
+}
+
+form {
+    margin-top: 9.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+}
+
+input {
+    width: 516rem;
+    height: 6rem;
+    background: #f5edf7;
+    border-radius: 2.4rem;
+    border: 0;
+    padding-left: 2.9rem;
+    outline: 0;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #372D3B;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.icons img {
+    cursor: pointer;
+}
