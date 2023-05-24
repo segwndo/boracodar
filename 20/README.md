@@ -1,4 +1,4 @@
-<h1 align="center"> Widget de Transporte </h1>
+<h1 align="center"> Galeria com Hover </h1>
 
 <p align="center">
 <a href="https://www.rocketseat.com.br/boracodar">#boraCodar</a> são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
