@@ -1,44 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Lato", sans-serif;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .box {
-    padding: 3.2rem;
-    background-color: white;
-    box-shadow: 0 0.8rem 3.2rem rgba(0 0 0 / 0.16);
-    border-radius: 1.6rem;
-    width: fit-content;
+  padding: 3.2rem;
+  background-color: white;
+  box-shadow: 0 0.8rem 3.2rem rgba(0 0 0 / 0.16);
+  border-radius: 1.6rem;
+  width: fit-content;
 }
 
 #app {
-    display: grid;
-    grid-template-rows: 4rem 1fr;
-    gap: 2.4rem;
+  display: grid;
+  grid-template-rows: 4rem 1fr;
+  gap: 2.4rem;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-weight: 700;
-    color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  color: #333;
 }
 
 header i {
@@ -48,47 +48,47 @@ header i {
   cursor: pointer;
 }
 
-header i:hover{
+header i:hover {
   background-color: #ece0fd;
 }
 
 main {
-    display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr;*/
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.6rem;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr;*/
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
 }
 
 main > div {
-    width: 8.2rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    cursor: pointer;
-    transition: all 0.3s;
+  width: 8.2rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  cursor: pointer;
+  transition: all 0.3s;
 }
 
 main > div:hover {
-    background-color: #ece0fd;
-    border-radius: 0.8rem;
+  background-color: #ece0fd;
+  border-radius: 0.8rem;
 }
 
 main > div.active {
-    background: #6200ee;
-    border-radius: 0.8rem;
-    font-weight: 700;
-    color: white;
-    position: relative;
+  background: #6200ee;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  color: white;
+  position: relative;
 }
 
 main > div.active::after {
-    content: '';
-    width: 0.4rem;
-    height: 0.4rem;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 0.5rem;
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0.5rem;
 }
