@@ -19,6 +19,15 @@ body {
   padding: 14rem 13.4rem 14rem 11rem;
 }
 
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #282843;
+  border-radius: 99.9rem;
+}
+
 img {
   width: 100%;
   height: 100%;
