@@ -1,133 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
 }
 
 :root {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-size: 1.6rem;
-    background-color: #151721;
-    height: 100vh;
-    width: 100%;
+  font-size: 1.6rem;
+  background-color: #151721;
+  height: 100vh;
+  width: 100%;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5rem;
-    position: fixed;
-    width: 100%;
-    background-color: #121214;
-    position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+  position: fixed;
+  width: 100%;
+  background-color: #121214;
+  position: fixed;
 }
 
 header h1 {
-    font-size: 4rem;
-    color: white;
+  font-size: 4rem;
+  color: white;
 }
 
 main {
-    width: 100%;
-    padding: 10rem;
+  width: 100%;
+  padding: 10rem;
 }
 
 .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem;
-    justify-content: center;
-    margin-top: 10rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 10rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    background-color: #121214;
-    padding: 0 0 1rem 0;
-    border-radius: 0.5rem;
-    max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #121214;
+  padding: 0 0 1rem 0;
+  border-radius: 0.5rem;
+  max-width: 50rem;
 }
 
 .card:hover {
-    background-color: #2a2a2d;
+  background-color: #2a2a2d;
 }
 
 .card img {
-    width: 100%;
-    background-size: cover;
-    border-radius: 0.5rem 0.5rem 0 0;
+  width: 100%;
+  background-size: cover;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .card h3 {
-    color: white;
-    font-weight: 400;
+  color: white;
+  font-weight: 400;
 }
 
 body::-webkit-scrollbar {
-    width: 0.8rem;
+  width: 0.8rem;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #282843;
-    border-radius: 99.9rem;
+  background: #282843;
+  border-radius: 99.9rem;
 }
 
 footer {
-    padding: 5rem;
-    background-color: #121214;
+  padding: 5rem;
+  background-color: #121214;
 }
 
 .bot {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .bot img {
-    width: 5rem;
-    border-radius: 50%;
+  width: 5rem;
+  border-radius: 50%;
 }
 
 .bot h3 {
-    color: white;
+  color: white;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 @media (max-width: 1100px) {
-    .cards {
-        margin-top: 12rem;
-    }
-    main {
-        padding: 7rem;
-    }
-    .cards {
-        grid-template-columns: 1fr 1fr;
-    }
+  .cards {
+    margin-top: 12rem;
+  }
+  main {
+    padding: 7rem;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 600px) {
-    .cards {
-        margin-top: 14rem;
-    }
-    main {
-        padding: 5rem;
-    }
-    .cards {
-        grid-template-columns: 1fr;
-    }
+  .cards {
+    margin-top: 14rem;
+  }
+  main {
+    padding: 5rem;
+  }
+  .cards {
+    grid-template-columns: 1fr;
+  }
 }
