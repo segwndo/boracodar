@@ -15,6 +15,15 @@ body {
   font-size: 1.6rem;
 }
 
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #cecece;
+  border-radius: 99.9rem;
+}
+
 main {
   background: url(./assets/bg.jpeg) no-repeat center/cover;
 

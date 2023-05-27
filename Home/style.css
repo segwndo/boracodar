@@ -18,6 +18,15 @@ body {
   width: 100%;
 }
 
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #282843;
+  border-radius: 99.9rem;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -73,15 +82,6 @@ main {
 .card h3 {
   color: white;
   font-weight: 400;
-}
-
-body::-webkit-scrollbar {
-  width: 0.8rem;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: #282843;
-  border-radius: 99.9rem;
 }
 
 footer {

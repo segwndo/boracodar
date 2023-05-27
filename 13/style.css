@@ -14,6 +14,15 @@ body {
   background: #1f2937;
 }
 
+body::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #282843;
+  border-radius: 99.9rem;
+}
+
 body,
 input,
 button {
