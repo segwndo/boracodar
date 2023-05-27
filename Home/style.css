@@ -61,6 +61,7 @@ main {
 
 .card:hover {
   background-color: #2a2a2d;
+  transition: all 0.4s;
 }
 
 .card img {
