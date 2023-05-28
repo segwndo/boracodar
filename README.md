@@ -41,14 +41,14 @@
     <tbody>
         <tr>
             <td>01</td>
-            <td><a href="01">Um Music Player </a></td>
+            <td><a href="01">Player de Música</a></td>
             <td>11/01/23</td>
             <td align="center">
             <a href="01"><img width="300px" src="01/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>02</td>
-            <td><a href="02">Um Product Card</a></td>
+            <td><a href="02">Card de Produto</a></td>
             <td>18/01/23</td>
             <td align="center"><a href="02"><img width="300px" src="02/.github/preview.jpg" /></a></td>
         </tr>
@@ -60,91 +60,91 @@
         </tr>
         <tr>
             <td>04</td>
-            <td><a href="04">Um Chat</a></td>
+            <td><a href="04">Chat</a></td>
             <td>01/02/23</td>
             <td align="center"><a href="04"><img width="300px" src="04/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>05</td>
-            <td><a href="05">Uma Calculadora</a></td>
+            <td><a href="05">Calculadora</a></td>
             <td>08/02/23</td>
             <td align="center"><a href="05"><img width="300px" src="05/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>06</td>
-            <td><a href="06">Um Cartão de embarque</a></td>
+            <td><a href="06">Cartão de Embarque</a></td>
             <td>15/02/23</td>
             <td align="center" ><a href="06"><img width="300px" src="06/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>07</td>
-            <td><a href="07">Site para encontrar seu bloco no carnaval</a></td>
+            <td><a href="07">Site de Carnaval</a></td>
             <td>22/02/23</td>
             <td align="center" ><a href="07"><img width="300px" src="07/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>08</td>
-            <td><a href="08">Um Dashboard</a></td>
+            <td><a href="08">Dashboard</a></td>
             <td>01/03/23</td>
             <td align="center" ><a href="08"><img width="300px" src="08/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>09</td>
-            <td><a href="09">Um Conversor de moedas</a></td>
+            <td><a href="09">Conversor de Moedas</a></td>
             <td>08/03/23</td>
             <td align="center" ><a href="09"><img width="300px" src="09/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>10</td>
-            <td><a href="10">Uma página de clima</a></td>
+            <td><a href="10">Página de Clima</a></td>
             <td>15/03/23</td>
             <td align="center" ><a href="10"><img width="300px" src="10/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>11</td>
-            <td><a href="11">Uma página de login</a></td>
+            <td><a href="11">Página de Login</a></td>
             <td>22/03/23</td>
             <td align="center" ><a href="11"><img width="300px" src="11/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>12</td>
-            <td><a href="12">Um Kanban</a></td>
+            <td><a href="12">Kanban</a></td>
             <td>29/03/23</td>
             <td align="center" ><a href="12"><img width="300px" src="12/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>13</td>
-            <td><a href="13">Um formulário de cartão</a></td>
+            <td><a href="13">Formulário de Cartão</a></td>
             <td>05/04/23</td>
             <td align="center" ><a href="13"><img width="300px" src="13/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>14</td>
-            <td><a href="14">Um componente de upload</a></td>
+            <td><a href="14">Componente de Upload</a></td>
             <td>12/04/23</td>
             <td align="center" ><a href="14"><img width="300px" src="14/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>15</td>
-            <td><a href="15">Um Pricing Table</a></td>
+            <td><a href="15">Pricing Table</a></td>
             <td>19/04/23</td>
             <td align="center" ><a href="15"><img width="300px" src="15/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>16</td>
-            <td><a href="16">Uma página de contatos</a></td>
+            <td><a href="16">Página de Contatos</a></td>
             <td>26/04/23</td>
             <td align="center" ><a href="16"><img width="300px" src="16/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>17</td>
-            <td><a href="17">Um Date Picker</a></td>
+            <td><a href="17">Date Picker</a></td>
             <td>03/05/23</td>
             <td align="center" ><a href="17"><img width="300px" src="17/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
             <td>18</td>
-            <td><a href="18">Um Card de Personagem</a></td>
+            <td><a href="18">Card de Personagem</a></td>
             <td>10/05/23</td>
             <td align="center" ><a href="18"><img width="300px" src="18/.github/preview.jpg" /></a></td>
         </tr>
