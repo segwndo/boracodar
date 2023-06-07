@@ -22,15 +22,17 @@ body {
 }
 
 #app {
-  height: 584px;
-  width: 375px;
-  padding: 24px 24px 16px 24px;
+  height: 58.4rem;
+  width: 37.5rem;
+  padding: 2.4rem 2.4rem 1.6rem 2.4rem;
   background: #fdfcfe;
-  border: 1px solid #f4effa;
-  box-shadow: 0px 52px 21px rgba(30, 30, 30, 0.01),
-    0px 29px 18px rgba(30, 30, 30, 0.05), 0px 13px 13px rgba(30, 30, 30, 0.09),
-    0px 3px 7px rgba(30, 30, 30, 0.1), 0px 0px 0px rgba(30, 30, 30, 0.1);
-  border-radius: 12px;
+  border: 0.1rem solid #f4effa;
+  box-shadow: 0rem 5.2rem 2.1rem rgba(30, 30, 30, 0.01),
+    0rem 2.9rem 1.8rem rgba(30, 30, 30, 0.05),
+    0rem 1.3rem 1.3rem rgba(30, 30, 30, 0.09),
+    0rem 0.3rem 0.7rem rgba(30, 30, 30, 0.1),
+    0rem 0rem 0rem rgba(30, 30, 30, 0.1);
+  border-radius: 1.2rem;
 }
 
 .user {
@@ -42,15 +44,15 @@ body {
 
 .user h1 {
   font-weight: 700;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
   color: #38343d;
 }
 
 .user span {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
   color: #686071;
 }
 
@@ -58,13 +60,13 @@ body {
 .privacy,
 .preferences,
 .account {
-  border-top: 1px solid #f4effa;
+  border-top: 0.1rem solid #f4effa;
   padding: 1.6rem 0 1.6rem;
 }
 
 h3 {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 100%;
   color: #797085;
   text-transform: uppercase;
@@ -75,16 +77,15 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 0px;
+  padding: 0.8rem 0rem;
 }
 
 .item-about:hover,
 .item:hover {
-  background-color: rgb(252, 214, 233);
+  background-color: #ececec;
   border-radius: 0.8rem;
-  color: #7c3b4b;
   cursor: pointer;
-  padding: 8px 4px;
+  padding: 0.8rem 0.4rem;
   transition: all 0.3s ease-in;
 }
 
@@ -97,13 +98,14 @@ h3 {
 
 h4 {
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1.6rem;
+  line-height: 2rem;
   color: #38343d;
 }
 
 i {
   font-size: 2rem;
+  color: #38343d;
 }
 
 .about {
@@ -113,7 +115,7 @@ i {
 }
 
 .item-about {
-  padding: 8px 0px;
+  padding: 0.8rem 0rem;
 }
 
 .red h4,
