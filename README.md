@@ -178,5 +178,11 @@
             <td>14/06/23</td>
             <td align="center" ><a href="23"><img width="300px" src="23/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>24</td>
+            <td><a href="24">Ajustes de Iluminação</a></td>
+            <td>21/06/23</td>
+            <td align="center" ><a href="24"><img width="300px" src="24/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
