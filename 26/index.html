@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3&family=Source+Serif+4:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receita junina</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <section class="top">
+      <picture>
+        <img src="./assets/pamonha.png" alt="pamonha" />
+      </picture>
+      <div class="info">
+        <h1>Pamonha</h1>
+        <p>Prato típico com milho verde ralado</p>
+        <div class="btn">
+          <span>Porções</span>
+          <button onclick="decreaseCounter()">
+            <img src="./assets/less.svg" alt="" />
+          </button>
+          <p id="counter">01</p>
+          <button onclick="increaseCounter()">
+            <img src="./assets/plus.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="bot">
+      <div class="col1">
+        <div>
+          <img src="./assets/bag.svg" alt="" />
+          <h1>Ingredientes</h1>
+        </div>
+        <ul>
+          <li>1 espiga de milho verde</li>
+          <li>1 colher de sopa de açúcar</li>
+          <li>1 colher de sopa de manteiga</li>
+          <li>Sal a gosto</li>
+          <li>Palha de milho (para embrulhar)</li>
+        </ul>
+      </div>
+      <div class="col2">
+        <div>
+          <img src="./assets/pan.svg" alt="" />
+          <h1>Modo de preparo</h1>
+        </div>
+        <ol>
+          <li>Descasque a espiga de milho e corte os grãos.</li>
+          <li>Bata o milho, açúcar, manteiga e sal no liquidificador.</li>
+          <li>Coloque a massa nas palhas de milho e feche bem.</li>
+          <li>Cozinhe em água fervente por cerca de 40 minutos.</li>
+          <li>Deixe esfriar e sirva.</li>
+        </ol>
+      </div>
+    </section>
+  </body>
+</html>
