@@ -185,6 +185,12 @@
             <td align="center" ><a href="24"><img width="300px" src="24/.github/preview.jpg" /></a></td>
         </tr>
         <tr>
+            <td>25</td>
+            <td><a href="25">Player de VR</a></td>
+            <td>10/07/23</td>
+            <td align="center" ><a href="25"><img width="300px" src="25/.github/preview.jpg" /></a></td>
+        </tr>
+        <tr>
             <td>26</td>
             <td><a href="26">Receita junina</a></td>
             <td>10/07/23</td>
