@@ -196,5 +196,11 @@
             <td>10/07/23</td>
             <td align="center" ><a href="26"><img width="300px" src="26/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>27</td>
+            <td><a href="27">Página 404</a></td>
+            <td>12/07/23</td>
+            <td align="center" ><a href="27"><img width="300px" src="27/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
