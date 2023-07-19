@@ -202,5 +202,11 @@
             <td>12/07/23</td>
             <td align="center" ><a href="27"><img width="300px" src="27/.github/preview.jpg" /></a></td>
         </tr>
+          <tr>
+            <td>28</td>
+            <td><a href="28">Plataforma de IA</a></td>
+            <td>19/07/23</td>
+            <td align="center" ><a href="28"><img width="300px" src="28/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
