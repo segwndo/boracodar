@@ -208,5 +208,11 @@
             <td>19/07/23</td>
             <td align="center" ><a href="28"><img width="300px" src="28/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>29</td>
+            <td><a href="29">Antes e depois com IA</a></td>
+            <td>26/07/23</td>
+            <td align="center" ><a href="29"><img width="300px" src="29/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
