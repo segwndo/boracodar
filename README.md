@@ -214,5 +214,11 @@
             <td>26/07/23</td>
             <td align="center" ><a href="29"><img width="300px" src="29/.github/preview.jpg" /></a></td>
         </tr>
+        <tr>
+            <td>30</td>
+            <td><a href="30">Recomendação de Filme (IA)</a></td>
+            <td>04/08/23</td>
+            <td align="center" ><a href="30"><img width="300px" src="30/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
