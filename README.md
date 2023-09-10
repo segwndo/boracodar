@@ -226,5 +226,11 @@
             <td>18/08/23</td>
             <td align="center" ><a href="31"><img width="300px" src="31/.github/preview.jpg" /></a></td>
         </tr>
+         <tr>
+            <td>34</td>
+            <td><a href="34">Lista de Compras</a></td>
+            <td>10/09/23</td>
+            <td align="center" ><a href="34"><img width="300px" src="34/.github/preview.jpg" /></a></td>
+        </tr>
     </tbody>
 </table></p>
